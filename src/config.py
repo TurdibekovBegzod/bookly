@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRES : int
     REFRESH_TOKEN_EXPIRES : int
     
-    REDIS_URL : str = "redis://localhost:7998/0"
+    REDIS_URL : str = "redis://localhost:6379/0"
 
     DOMAIN : str
     PORT : int
